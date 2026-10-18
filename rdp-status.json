@@ -1,42 +1,42 @@
 {
   "active": true,
-  "hostname": "rdpfree-3",
+  "hostname": "rdpfree-5",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 28.5,
     "cpu_threads": 4,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 28.4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-18T10:39:41Z",
-  "expires_at": "2026-10-18T16:21:41Z",
+  "started_at": "2026-10-18T11:12:44Z",
+  "expires_at": "2026-10-18T16:54:44Z",
   "duration_menit": 342,
-  "run_id": "39120100642",
+  "run_id": "39122251443",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/vpnmalaysia639-web/XyRDP/actions/runs/39120100642",
+  "run_number": "5",
+  "run_url": "https://github.com/vpnmalaysia639-web/XyRDP/actions/runs/39122251443",
   "mode": "bersih+win10",
   "akses": {
-    "tailscale": {
-      "status": "ok",
-      "ip": "100.102.197.112",
-      "magicdns": "rdpfree-2.tail604b36.ts.net.",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "rdpfree-3"
-    },
-    "mode": "tailscale",
     "tunnel": {
-      "status": "ok",
-      "selftest": "ok",
-      "outside": "tailscale",
-      "host": "100.102.197.112",
       "address": "100.102.197.112:3389",
-      "port": 3389
-    }
+      "selftest": "ok",
+      "host": "100.102.197.112",
+      "outside": "tailscale",
+      "port": 3389,
+      "status": "ok"
+    },
+    "tailscale": {
+      "hostname": "rdpfree-5",
+      "ip": "100.102.197.112",
+      "magicdns": "rdpfree-5.tail604b36.ts.net.",
+      "status": "ok",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+    },
+    "mode": "tailscale"
   }
 }
